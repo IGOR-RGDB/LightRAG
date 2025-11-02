@@ -1,6 +1,6 @@
 services:
   lightrag:
-    container_name: lightrag
+    container_name: lightrag-rgdb
     image: ghcr.io/hkuds/lightrag:latest
     build:
       context: .
